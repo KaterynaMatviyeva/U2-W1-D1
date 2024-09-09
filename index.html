@@ -34,27 +34,34 @@
         <div class="html-badge">
           <div class="html-badge1"><img src="./FE-S1-L4-Esercizio/assets/img/badge.png" alt="logo HTML5" /></div>
         </div>
-        <div>
-          <h3>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine.</h3>
-          <h4>Le varie aree saranno quindi suddivise in:</h4>
+        <div class="list1">
+          <p>
+            La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span class="purple">parti comuni</span> da applicare a tutte le
+            pagine.
+          </p>
+          <p>Le varie aree saranno quindi suddivise in:</p>
           <ul>
-            <li>Contenuti di intestazione del tag &lt; header &gt;</li>
-            <li>Contenuti centrali variabili del tag &lt; main &gt; (corpo principale)</li>
-            <li>Contenuti di fine pagina comuni, da inserire nel tag &lt; footer &gt;</li>
+            <li>Contenuti di intestazione del tag <span>&lt; header &gt;</span></li>
+            <li>Contenuti centrali variabili del tag <span>&lt; main &gt;</span> (corpo principale)</li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag <span>&lt; footer &gt;</span></li>
           </ul>
         </div>
-        <h3>Formattazione del codice</h3>
-        <div>
-          <h4>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</h4>
+
+        <div class="list2">
+          <p>
+            Formattazione del codice <br />
+            Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span class="purple">selezionare con i CSS</span>. Perciò i passi
+            saranno:
+          </p>
           <ol>
             <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
             <li>Scrivere l'HTML dei tag esterni a quelli interni e dall'alto verso il basso</li>
             <li>Applicare gli stili CSS</li>
           </ol>
         </div>
-        <div>
+        <div class="table">
           <table>
-            <h4>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale</h4>
+            <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale</p>
             <caption>
               Diffusione dei CSS
             </caption>
@@ -94,14 +101,14 @@
             </tbody>
           </table>
         </div>
-        <div class="video-conteiner">
+        <div class="video-container">
           <p>
             Un test di validazione potrà essere fatto tramite il <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo
             raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
           </p>
           <iframe
-            width="350"
-            height="200"
+            width="95%"
+            height="70%"
             src="https://www.youtube.com/embed/m4WSQHmTyUI?si=E0nvwBm_YdE8mtsd"
             title="YouTube video player"
             frameborder="0"
@@ -111,44 +118,37 @@
           ></iframe>
         </div>
       </section>
-      <hr />
+
       <section id="newsletter">
-        <h3>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra Newsletter:</h3>
+        <h5>Novità</h5>
+        <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra Newsletter:</p>
         <form action="#">
-          <label for="email">Inserisci la tua email:</label>
-          <input type="email" id="email" name="email" required />
-          <button type="submit">Iscriviti</button>
+          <input type="email" id="email" name="email" placeholder="inserisci l'email" required />
+          <button type="submit">Iscriviti!</button>
         </form>
       </section>
       <section id="related-posts">
         <h2>Articoli Correlati</h2>
         <div>
-          <ul>
-            <li>Validare il codice HTML</li>
-            <li>Categoria: delop</li>
-            <li>Data: 18-9-2020</li>
-          </ul>
+          <a href="#">Validare il codice HTML</a>
+          <p><i class="fas fa-tag"></i> Categoria: delop</p>
+          <p class="data"><i class="fas fa-calendar-alt"></i>Data: 18-9-2020</p>
         </div>
         <div>
-          <ul>
-            <li>Correggere la sintassi</li>
-            <li>Categoria: develop</li>
-            <li>Data: 16-9-2020</li>
-          </ul>
+          <a href="#">Correggere la sintassi</a>
+          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <p class="data"><i class="fas fa-calendar-alt"></i>Data: 16-9-2020</p>
         </div>
         <div>
-          <ul>
-            <li>Meno Kb nella pagina</li>
-            <li>Categoria: ottimizzazione</li>
-            <li>Data: 30-9-2020</li>
-          </ul>
+          <a href="#">Meno Kb nella pagina</a>
+          <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+          <p class="data"><i class="fas fa-calendar-alt"></i>Data: 30-9-2020</p>
         </div>
       </section>
     </main>
     <footer>
-      <p>&copy; Blog Epicode Ⓒ2023</p>
-      <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.</p>
-      <p><a href="#">info@epicode.school</a></p>
+      <p>Blog Epicode Ⓒ2023</p>
+      <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="#">info@epicode.school</a></p>
     </footer>
   </body>
 </html>
